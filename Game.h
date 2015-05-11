@@ -1,7 +1,8 @@
 #pragma once
 
 #include "Deck.h"
-#include "Holder.h"
+#include "Dealer.h"
+#include "Player.h"
 #include <ctime>
 #include <iostream>
 #include <sstream>
@@ -15,8 +16,8 @@ public:
 
 private:
 	Deck deck;
-	//Dealer
-	//Player
+	Dealer dealer;
+	Player player;
 
 
 };
